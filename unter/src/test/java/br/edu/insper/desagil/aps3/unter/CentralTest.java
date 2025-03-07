@@ -75,9 +75,9 @@ public class CentralTest {
         corrida3.avaliaMotorista(3);
         central.adicionaCorrida(corrida3);
 
-        Passageiro passageiro2 = new Passageiro("9876543210", "Maria");
-        Corrida corrida4 = new Corrida(passageiro2);
-        corrida1.setMotorista(motorista1);
+        Motorista motorista2 = new Motorista("9876543210", "Maria");
+        Corrida corrida4 = new Corrida(passageiro1);
+        corrida1.setMotorista(motorista2);
         corrida4.avaliaPassageiro(2);
         corrida4.avaliaMotorista(1);
         central.adicionaCorrida(corrida4);

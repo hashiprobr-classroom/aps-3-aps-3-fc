@@ -23,6 +23,7 @@ public class Central {
         double media = 0;
         int quant = 0;
         for (Corrida corrida : this.lista_corridas){
+
             if (Objects.equals(corrida.getMotorista().getCpf(), cpf) && corrida.getNota_motorista()!=0){
                 media += corrida.getNota_motorista();
                 quant += 1;
