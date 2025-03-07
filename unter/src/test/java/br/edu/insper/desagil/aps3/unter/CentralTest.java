@@ -82,8 +82,8 @@ public class CentralTest {
         corrida4.avaliaMotorista(1);
         central.adicionaCorrida(corrida4);
 
-        Corrida corrida5 = new Corrida(passageiro2);
-        corrida1.setMotorista(motorista1);
+        Corrida corrida5 = new Corrida(passageiro1);
+        corrida1.setMotorista(null);
         corrida5.avaliaPassageiro(3);
         corrida5.avaliaMotorista(1);
         central.adicionaCorrida(corrida5);
